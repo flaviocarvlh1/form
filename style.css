@@ -1,0 +1,93 @@
+::after
+::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: sans-serif;
+    background: linear-gradient(#101968, #d0d1d9);
+
+}
+
+
+form {
+   
+    width: 500px;
+    display: flex;
+    margin: 6vh auto;
+    font-weight: bold;
+}
+fieldset {
+    border-radius: 8px;
+    background: linear-gradient(#0b1257, #adb2da);
+}
+legend {
+    border: solid 2px white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #1c196a;
+    color: white;
+    text-align: center;
+  
+}
+.informations textarea,
+.informations input {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+}
+
+label, p{
+    font-size: 18px;
+    color: #fff;
+}
+
+.databorn {
+    margin-top: 20px;
+}
+.databorn input{
+    
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    outline: none;
+    font-size: 16px;
+    
+}
+
+.genero input{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.privace {
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.button {
+    text-align: center;
+}
+
+.button input {
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: #504cc2;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.button :hover {
+    background: #1c196a;
+}
+
