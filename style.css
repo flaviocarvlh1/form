@@ -91,3 +91,35 @@ label, p{
     background: #1c196a;
 }
 
+@media (max-width: 600px) {
+
+form {
+    width: 250px;
+}
+
+.informations textarea,
+.informations input {
+    width: 80%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+label, p {
+    font-size: 14px;
+}
+
+.databorn input {
+    font-size: 14px;
+}
+
+.button input {
+    font-size: 14px;
+}
+
+.databorn input {
+    margin-top: 20px;
+
+}
+
+}
