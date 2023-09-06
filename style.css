@@ -94,7 +94,11 @@ label, p{
 @media (max-width: 600px) {
 
 form {
-    width: 250px;
+    width: 300px;
+}
+
+.informations {
+    margin-top: 30px;
 }
 
 .informations textarea,
